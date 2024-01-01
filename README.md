@@ -54,14 +54,17 @@ for Mandatory part :
 	```shell$ make ```
 ```
 <p style="color: red;">usage:</p>
-```./pipex infile "ls -l" "cat -e" outfile ```
+	./pipex infile "ls -l" "cat -e" outfile
 <br>
+
 ```
 for Bonus part : 
 	```shell$ make bonus ```
 ```
 <p style="color: red;">multiple pipe usage:</p>
-```./pipex infile ls "cat -e"  "grep $" outfile ```
+	./pipex_bonus infile ls "cat -e"  "grep $" outfile
+	
 <br>
+
 <p style="color: red;">here_doc usage:</p>
-```./pipex infile here_doc LIMITER ls "cat -e"  "grep $" outfile ```
+	./pipex_bonus infile here_doc LIMITER ls "cat -e"  "grep $" outfile
