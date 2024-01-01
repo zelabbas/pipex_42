@@ -60,7 +60,7 @@ usage:
 for Bonus part : 
 	```shell$ make bonus ```
 ```
-```multiple pipe usage:
+```	multiple pipe usage:
 			./pipex_bonus infile ls "cat -e"  "grep $" outfile
 ---------------------------------------------------------------------------
 here_doc usage:
