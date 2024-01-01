@@ -54,9 +54,7 @@ for Mandatory part :
 	```shell$ make ```
 ```
 ```usage:
-	./pipex infile "ls -l" "cat -e" outfile```
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	./pipex infile "ls -l" "cat -e" outfile
 
 ```
 for Bonus part : 
@@ -66,4 +64,4 @@ for Bonus part :
 			./pipex_bonus infile ls "cat -e"  "grep $" outfile
 ---------------------------------------------------------------------------
 here_doc usage:
-			./pipex_bonus infile here_doc LIMITER ls "cat -e"  "grep $" outfile```
+			./pipex_bonus infile here_doc LIMITER ls "cat -e"  "grep $" outfile
