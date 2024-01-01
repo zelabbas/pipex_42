@@ -53,7 +53,7 @@ The "pipex" project typically requires students to implement a program that can 
 for Mandatory part : 
 	```shell$ make ```
 ```
-```usage:
+usage:
 	./pipex infile "ls -l" "cat -e" outfile
 
 ```
