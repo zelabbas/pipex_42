@@ -53,18 +53,17 @@ The "pipex" project typically requires students to implement a program that can 
 for Mandatory part : 
 	```shell$ make ```
 ```
-<p style="color: red;">usage:</p>
-	./pipex infile "ls -l" "cat -e" outfile
-<br>
+```usage:
+	./pipex infile "ls -l" "cat -e" outfile```
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ```
 for Bonus part : 
 	```shell$ make bonus ```
 ```
-<p style="color: red;">multiple pipe usage:</p>
-	./pipex_bonus infile ls "cat -e"  "grep $" outfile
-	
-<br>
-
-<p style="color: red;">here_doc usage:</p>
-	./pipex_bonus infile here_doc LIMITER ls "cat -e"  "grep $" outfile
+```multiple pipe usage:
+			./pipex_bonus infile ls "cat -e"  "grep $" outfile
+---------------------------------------------------------------------------
+here_doc usage:
+			./pipex_bonus infile here_doc LIMITER ls "cat -e"  "grep $" outfile```
